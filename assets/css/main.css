@@ -55,7 +55,7 @@ p{
 	color: #969595;
 }
 .border-radius{
-	border-radius: 0 !important;
+	border-radius: 10px !important;
 	border-color: #60c9eb;
 	height: 45px;
 }
@@ -85,6 +85,7 @@ p:hover{
     outline: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
+
 }
 /*=================================================
 ||				3. Header
@@ -110,7 +111,7 @@ ul.nav.navbar-nav.navbar-right{
 	color: #60c9eb;
 }
 .navbar-default {
-    background-color: #fff;
+    background: linear-gradient(351deg, #03CDB7 0%, #00A6FF 100%);
     border-color: transparent;
     padding: 5px 0px;
     border-radius: 0;
@@ -270,7 +271,10 @@ ul.nav.navbar-nav.navbar-right{
 	padding: 0px 15px;
 	transition: all .4s ease-in-out;
 	opacity: .6;
+	border-radius: 10px !important;
+	
 }
+
 .visit-item:hover{
 	opacity: 1;
 }
@@ -379,10 +383,10 @@ ul.nav.navbar-nav.navbar-right{
 }
 .brand-logo{
 	font-size: 33px;
-	color: #60c9eb;
+	color: #00A6FF;
 }
 a.brand-logo span{
-	color: #583b54;
+	color: #03CDB7 ;
 }
 a.brand-logo:focus, a.brand-logo:hover{
 	color: #60c9eb;
@@ -429,7 +433,8 @@ a.brand-logo:focus, a.brand-logo:hover{
 footer{
 	text-align: center;
 	padding: 20px;
-	background: #60c9eb;
+	
+	background: linear-gradient(351deg, #03CDB7 0%, #00A6FF 100%);
 }
 footer a{
 	color: #fff;
