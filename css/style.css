@@ -1,0 +1,50 @@
+ .hero-video {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.hero-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+}
+.hero-content h1{
+
+
+text-shadow: #333 1px 1px 0;
+}
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-item {
+    transition: transform 0.3s ease;
+}
+.gallery-item:hover {
+    transform: scale(1.03);
+}
+#galeria-description img{
+    width: 100% !important;
+    border-radius: 5px;
+}
+#galeria-titulo{
+    padding-top: 40px !important;
+}
+#galeria-description p{
+    margin-bottom: 25px !important;
+}
+#galeria-description strong{
+    color: rgb(57 132 243 / var(--tw-text-opacity, 1));
+}
