@@ -1,7 +1,6 @@
  // Simple JavaScript for mobile menu toggle (could be expanded)
 document.querySelector('button').addEventListener('click', function() {
-    const nav = document.querySelector('nav');
-    nav.classList.toggle('hidden');
+    const nav = document.querySelector('.menu');
     nav.classList.toggle('block');
 });
 
@@ -12,5 +11,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
         });
+        const nav = document.querySelector('.menu');
+        nav.classList.remove('block');
     });
 });
